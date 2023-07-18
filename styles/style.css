@@ -56,7 +56,7 @@ body {
 }
 .login .col-left {
     width: 50%;
-    clip-path: polygon(0 0, 0% 100%, 100% 0);
+    /*clip-path: polygon(0 0, 0% 100%, 100% 0);*/
     background: #2aa15f;
 }
 .login .col-right {
@@ -148,7 +148,6 @@ body {
 .login .login-form input:focus {
     border-color: #ff574e;
 }
-.login .login-form button,
 .login .login-form input[type=submit] {
     display: inline-block;
     width: 100%;
@@ -162,4 +161,11 @@ body {
     border-radius: 30px;
     box-shadow: inset 0 0 0 0 #2aa15f;
     transition: 0.3px;
+}
+.login .login-form input[type=submit]:hover {
+    background: #2aa15f;
+    border: 1px solid #ffffff;
+    box-shadow: inset 0 0 0 0 #ffffff;
+    color: #ffffff;
+    box-shadow: inset 0 0 0 0 #ffffff;
 }
