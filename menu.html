@@ -3,8 +3,10 @@
     <head>
         <meta charset="UTF8">
         <title>
-            منو تم تاریک و روشن
+            منو تم
         </title>
+        <link rel="stylesheet" href="styles/fonts.css"/>
+        <link rel="stylesheet" href="styles/menu.css"/>
     </head>
     <body>
         <div class="menu">
@@ -14,11 +16,29 @@
                     <input type="radio" id="light-theme" name="themes" checked />
                     <label for="light-theme">
                         <span>
-                            <i data-teather="sun"></i>light
+                            <i data-feather="sun"></i>Light
                         </span>
                     </label>
-                    
+                    <input type="radio" id="dark-theme" name="themes" />
+                    <label for="dark-theme">
+                        <span>
+                            <i data-feather="moon"></i>Dark
+                        </span>
+                    </label>
+                    <input type="radio" id="black-theme" name="themes" />
+                    <label for="black-theme">
+                        <span>
+                            <i data-feather="star"></i>Black
+                        </span>
+                    </label>
+                    <span class="slider"></span>
                 </div>
+            </div>
+            <div class="menu-body">
+                <a href="#"><i data-feather="user"></i>تنظیمات حساب</a>
+                <a href="#"><i data-feather="message-square"></i>بازخورد</a>
+                <a href="#"><i data-feather="info"></i>در مورد ما</a>
+                <a href="#"><i data-feather="life-buoy"></i>پشتیبانی</a>
             </div>
         </div>
     </body>
